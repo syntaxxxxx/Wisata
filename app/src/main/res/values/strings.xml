@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wisata Lampung</string>
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <string name="daftarwisata">Daftar Wisata</string>
+    <string name="profil">Profil Pengembang</string>
+    <string name="navigation_view_item3">Daftar</string>
+    <string name="navigation_kategori_2">Sub item</string>
+    <string name="navkeluar">Keluar</string>
+</resources>

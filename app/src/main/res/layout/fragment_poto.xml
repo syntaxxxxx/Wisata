@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:id="@+id/judul"
+            android:textSize="13dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:background="#6FCAF0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="judul"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/imma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scrollbarFadeDuration="10" />
+
+    </LinearLayout>

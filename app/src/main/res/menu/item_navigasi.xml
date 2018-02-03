@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/navigation1"
+            android:checked="false"
+            android:icon="@drawable/ic_wisata"
+            android:title="Daftar Wisata"/>
+
+        <item
+            android:id="@+id/navigation2"
+            android:checked="false"
+            android:icon="@drawable/ic_profil"
+            android:title="Profil Pengembang"/>
+
+    </group>
+
+    <item
+        android:id="@+id/navigation_kategori_2"
+        android:title="Sub Item">
+
+        <menu>
+            <item
+                android:id="@+id/navigation4"
+                android:checked="false"
+                android:icon="@drawable/ic_keluar"
+                android:title="Keluar"/>
+
+
+        </menu>
+
+    </item>
+
+</menu>
+
+
